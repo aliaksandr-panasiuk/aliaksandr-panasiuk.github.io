@@ -22,6 +22,7 @@
     line-height: 19px;
     color: #1F1F1F;
     opacity: 0.3;
+    white-space: nowrap;
   }
 
 .tm-slider {
@@ -46,6 +47,7 @@
     font-size: 18px;
     line-height: 24px;
     color: #6CBCC1;
+    white-space: nowrap;
   }
 
 input[type=range] {
@@ -607,5 +609,3 @@ input[type=range]::-ms-tooltip {
     background-size: cover;
   }
 
-
-/*# sourceMappingURL=bundle.css.map*/
