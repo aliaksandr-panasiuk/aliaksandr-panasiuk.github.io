@@ -416,7 +416,8 @@ input[type=range]::-ms-tooltip {
 .widget-retailers .r-retailers .r-retailer-content {
       background-color: white;
       border-radius: 8px;
-      height: 285px;
+      min-height: 285px;
+      height: calc(100% - 112px);
       margin: 112px 8px 0 8px;
       position: relative;
       z-index: 1;
@@ -488,33 +489,21 @@ input[type=range]::-ms-tooltip {
       z-index: 1;
     }
 
-.widget-retailers .r-ex-retailers .r-retailer-offers {
+.widget-retailers .r-ex-retailers .r-show-link {
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 19px;
+      color: var(--blue-dark);
+      border: 1px solid var(--blue-dark);
+      padding: 10px 16px;
+      border-radius: 50px;
+      margin: 4px 0;
       display: inline-block
     }
 
-.widget-retailers .r-ex-retailers .r-retailer-offers h3 {
-        font-family: var(--font-alt);
-        color: var(--green-dark);
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 19px;
+.widget-retailers .r-ex-retailers .r-show-link:hover {
+        background-color: var(--interface-light);
       }
-
-.widget-retailers .r-ex-retailers .r-retailer-offers .r-show-link {
-        text-decoration: none;
-        font-size: 14px;
-        line-height: 19px;
-        color: var(--blue-dark);
-        border: 1px solid var(--blue-dark);
-        padding: 10px 16px;
-        border-radius: 50px;
-        margin: 4px 0;
-        display: inline-block
-      }
-
-.widget-retailers .r-ex-retailers .r-retailer-offers .r-show-link:hover {
-          background-color: var(--interface-light);
-        }
 
 .widget-retailers .r-ex-retailers .r-retailer-content {
       display: inline-block;
@@ -538,19 +527,7 @@ input[type=range]::-ms-tooltip {
 
 @media screen and (min-width: 460px) {
     .widget-retailers .r-ex-retailers .r-container {
-      grid-template-columns: repeat(auto-fit, minmax(476px, 1fr));
-    }
-}
-
-@media screen and (min-width: 760px) {
-    .widget-retailers .r-ex-retailers .r-retailer-content {
-      width: 50%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .widget-retailers .r-ex-retailers .r-retailer-content {
-      width: 100% !important;
+      grid-template-columns: repeat(auto-fit, minmax(376px, 1fr));
     }
 }
 
