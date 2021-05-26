@@ -207,13 +207,16 @@ input[type=range]::-ms-tooltip {
     padding: 20px 16px;
     text-align: center;
     box-shadow: 0px 61px 53px -58px rgba(34, 60, 80, 0.13) inset;
-    position: relative
+    position: relative;
+    max-width: 1024px;
+    margin: 0 auto
   }
 
 .widget-time-machine .tm-body h1 {
       font-weight: 400;
       font-size: 32px;
       line-height: 38px;
+      color: #ffffff;
     }
 
 .widget-time-machine .tm-body h3 {
@@ -221,6 +224,7 @@ input[type=range]::-ms-tooltip {
       font-size: 20px;
       line-height: 18px;
       font-weight: normal;
+      color: #ffffff;
     }
 
 .widget-time-machine .tm-body .tm-question {
@@ -249,7 +253,8 @@ input[type=range]::-ms-tooltip {
         margin: 0 auto 18px auto;
         text-align: center;
         padding: 8px;
-        width: 198px
+        width: 210px;
+        white-space: nowrap
       }
 
 .widget-time-machine .tm-body ul.tm-numbers li .tm-caption {
@@ -264,7 +269,7 @@ input[type=range]::-ms-tooltip {
           font-size: 20px;
           line-height: 46px;
           color: var(--blue-dark);
-          font-size: 40px;
+          font-size: 34px;
         }
 
 @media screen and (min-width: 600px) {
@@ -305,7 +310,7 @@ input[type=range]::-ms-tooltip {
           }
 
           .widget-time-machine .tm-body ul.tm-numbers li .tm-value {
-            font-size: 40px;
+            font-size: 34px;
             line-height: 48px;
           }
 }
