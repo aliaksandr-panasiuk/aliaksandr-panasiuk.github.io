@@ -47,6 +47,7 @@
     text-align: center;
     font-size: 32px;
     line-height: 24px;
+    margin-left: 14px;
     white-space: nowrap;
   }
 
@@ -159,7 +160,7 @@ input[type=range]::-ms-tooltip {
   }
 
 .widget-time-machine .state-negative .state-image {
-      background-position-x: -16px;
+      background-position-x: -17px;
       background-image: var(--img-negative);
     }
 
@@ -168,7 +169,7 @@ input[type=range]::-ms-tooltip {
     }
 
 .widget-time-machine .state-neutral .state-image {
-      background-position-x: -8px;
+      background-position-x: -9px;
       background-image: var(--img-neutral);
     }
 
@@ -177,7 +178,7 @@ input[type=range]::-ms-tooltip {
     }
 
 .widget-time-machine .state-positive .state-image {
-      background-position-x: 10px;
+      background-position-x: 9px;
       background-image: var(--img-positive);
     }
 
