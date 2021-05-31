@@ -219,6 +219,7 @@ input[type=range]::-ms-tooltip {
       font-size: 32px;
       line-height: 38px;
       color: #ffffff;
+      margin: 22px 0;
     }
 
 .widget-time-machine .tm-body h3 {
