@@ -159,7 +159,7 @@ input[type=range]::-ms-tooltip {
   }
 
 .widget-time-machine .state-negative .state-image {
-      background-position-x: -8px;
+      background-position-x: -16px;
       background-image: var(--img-negative);
     }
 
@@ -168,7 +168,7 @@ input[type=range]::-ms-tooltip {
     }
 
 .widget-time-machine .state-neutral .state-image {
-      background-position-x: 0;
+      background-position-x: -8px;
       background-image: var(--img-neutral);
     }
 
@@ -177,7 +177,7 @@ input[type=range]::-ms-tooltip {
     }
 
 .widget-time-machine .state-positive .state-image {
-      background-position-x: 18px;
+      background-position-x: 10px;
       background-image: var(--img-positive);
     }
 
@@ -189,6 +189,7 @@ input[type=range]::-ms-tooltip {
     width: 352px;
     height: 338px;
     margin: 0 auto;
+    zoom: 0.7;
   }
 
 .widget-time-machine .body-background {
@@ -225,6 +226,7 @@ input[type=range]::-ms-tooltip {
       line-height: 18px;
       font-weight: normal;
       color: #ffffff;
+      margin: 16px 0;
     }
 
 .widget-time-machine .tm-body .tm-question {
@@ -271,6 +273,12 @@ input[type=range]::-ms-tooltip {
           color: var(--blue-dark);
           font-size: 34px;
         }
+
+@media screen and (min-width: 350px) {
+    .widget-time-machine .state-image {
+      zoom: 1;
+    }
+}
 
 @media screen and (min-width: 600px) {
     .widget-time-machine .tm-body {
