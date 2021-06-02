@@ -239,6 +239,8 @@ input[type=range]::-ms-tooltip {
       font-size: 32px;
       line-height: 38px;
       color: #ffffff;
+      font-family: var(--font-main);
+      margin: 22px 0;
     }
 
 .widget-time-machine .tm-body h3 {
@@ -261,6 +263,8 @@ input[type=range]::-ms-tooltip {
       font-size: 24px;
       line-height: 28px;
       font-weight: 600;
+      font-family: var(--font-main);
+      margin: 32px 0;
     }
 
 .widget-time-machine .tm-body ul.tm-numbers {
@@ -349,6 +353,7 @@ input[type=range]::-ms-tooltip {
 }
 
 .widget-retailers .r-categories {
+    font-family: var(--font-alt);
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
